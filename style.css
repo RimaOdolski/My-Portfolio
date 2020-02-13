@@ -1,0 +1,39 @@
+
+    body, html {
+        height: 100%;
+        margin: 0;
+        font: 400 15px/1.8;
+        font-family: monospace;
+        
+      }
+      .nav-item{
+          font-family: monospace;
+          font-size:15px;
+          
+      }
+      .navbar-light .navbar-nav .nav-link{
+          color: aliceblue;
+      }
+      
+      .bgimg-1, .bgimg-2, .bgimg-3 {
+        position: relative;
+        opacity: 0.65;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+      }
+      .bgimg-1 {
+        min-height: 100%;
+        background-image: url("assets/backimages/image_part_001.jpg");
+      }
+      .bgimg-2 {
+        min-height: 400px;
+        background-image: url("assets/backimages/image_part_002.jpg");
+      }
+      
+      .bgimg-3 {
+        min-height: 400px;
+        background-image: url("assets/backimages/image_part_003.jpg");
+      }
