@@ -37,3 +37,66 @@
         min-height: 400px;
         background-image: url("assets/backimages/image_part_003.jpg");
       }
+
+      .caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+      }
+      
+      .caption span.border1 {
+        
+        color: aliceblue;
+        padding: 18px;
+        font-size: 65px;
+        letter-spacing: 5px;
+      } 
+      
+      h3 {
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font: 20px "Lato", sans-serif;
+        color: #111;
+      }
+      
+      /* Turn off parallax scrolling for tablets and phones */
+      @media only screen and (max-device-width: 1024px) {
+        .bgimg-1, .bgimg-2, .bgimg-3 {
+          background-attachment: scroll;
+        }
+      }
+      
+  
+      .social {
+         margin-top: 20px;
+      }
+  
+      .title{
+          font-size: 20px;
+          letter-spacing: 2px;
+          color:aliceblue;
+          
+      }
+  
+    .socialicon{
+       height: 50px;
+      width: 50px
+      }
+  
+  
+      h1 { 
+          font-size: 3.5em; 
+          color: pink;
+      }
+      #border {
+        
+          color: aliceblue;
+          padding: 18px;
+          font-size: 65px;
+          letter-spacing: 5px;
+          font-family: monospace;
+      }
+  
