@@ -144,4 +144,18 @@
   
     .card:hover .overlay {
       opacity: 1;
-    }  
+    }
+    
+    .form-group {
+        font-family: monospace;
+        font-size: 20px ;
+        color: grey;
+    }
+
+    .formheader{
+        size: 30px;
+        font-family: monospace;
+        color: black;
+    }
+
+    
