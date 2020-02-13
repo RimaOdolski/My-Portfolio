@@ -13,24 +13,24 @@
 
     <!-- Navbar-->
     <nav class="navbar fixed-top navbar-expand-md navbar-light bg-faded">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#aboutMe">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#section2">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutMe">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <!-- About me container -->
     <div class="container-fluid bgimg"></div>
 
@@ -40,7 +40,7 @@
             <span class="border1">Rima Odolski</span>
             <br>
             <h1 class="title">Web Developer &&
-              <span class="txt-rotate" data-period="2000" data-rotate='[ "Mama.", "Traveler.", "Autodidact.","Linguist." ]'></span>
+                <span class="txt-rotate" data-period="2000" data-rotate='[ "Mama.", "Traveler.", "Autodidact.","Linguist." ]'></span>
             </h1>
 
             <div class="social">
@@ -52,7 +52,7 @@
                     </button>
                     <button class="btn bg-transparent ">
                         <a href="https://www.linkedin.com/in/rimaodolski/">
-                            <img class="socialicon"src="assets/linkedin.png">
+                            <img class="socialicon" src="assets/linkedin.png">
                         </a>
                     </button>
                 </div>
@@ -60,3 +60,45 @@
         </div>
     </div>
 
+    <!--Portfolio and About me text -->
+    <div id="aboutMe" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+        <h3 id="" style="text-align:center;">About Me</h3>
+        <p>
+            I am a full stack Web Developer recently graduated from the coding bootcamp at The University of Texas at Austin. My love for web development stems from working for SaaS companies for the past five years. Having been the one onboarding and assisting users with their product inquiries, I now want to start the endeavour of being the product maker. My acquired skills include HTML, CSS, Javascript, Bootstrap, Node.Js (section to be filled as I progress in the bootcamp)
+        </p>
+    </div>
+
+    <div class="bgimg-2">
+        <div class="caption">
+            <span class="border1" id="section2">Portfolio</span>
+        </div>
+    </div>
+
+    <div class="container-flex" style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify; position:relative;">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12  card" id="card1">
+                <a href="https://github.com/RimaOdolski/WeatherDashboard">
+                    <img class="card-img-top img-fluid" src="assets/backimages/weather.jpg">
+                    <p class="overlay">Weather Dashboard</p>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 card" id="card2">
+                <a href="https://github.com/RimaOdolski/Random-Password-Generator">
+                    <img class="card-img-top img-fluid" src="assets/backimages/password.jpg">
+                    <p class="overlay">Random Password Generator</p>
+                </a>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 card" id="card3">
+                <a href="https://github.com/RimaOdolski/Day-Planner">
+                    <img class="pcard-img-top img-fluid" src="assets/backimages/planner.jpg">
+                    <p class="overlay">Day Planner</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+</body>
